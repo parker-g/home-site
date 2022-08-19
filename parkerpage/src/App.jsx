@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   return (
   <div>
+    <title>Parker Profile Page</title>
     <div className = 'nav'>
       <ul class="navbar">
         <li><a href="#contact">CONTACT</a></li>
@@ -12,10 +13,6 @@ function App() {
         <li id="title"><a href="homepage.html">PARKER G.</a></li>
       </ul>
     </div>
-    <head>
-      <link href="./profilepagestyle.css" rel="stylesheet"></link>
-      <title>Parker Profile Page</title>
-    </head>
     <body>
       <section class="hero">
         <div class="container">
@@ -36,11 +33,11 @@ function App() {
         <section class="skills" id="skills">
         <h1>Parker's Skills</h1>
           <ul>
-            <li><img id="logohtml" className="listimage" src="images/html_badge.jpeg" alt="HTML logo"/><div id="logocss" class="listimage" src="css3logo.png" alt="CSS logo"/></li>
+            <li><img id="logohtml" className='listimage' src={require('./images/html_badge.jpeg')} alt="HTML logo"/><img id="logocss" class="listimage" src={require('./images/css3logo.png')} alt="CSS logo"/></li>
             <li>Proficiency in HTML+CSS</li>  
-            <li><img class="listimage" src="learningpicture1.jpeg" alt="Action Bronson branded hoodie"/></li>
+            <li><img className="listimage" src={require('./images/learningpicture1.jpeg')} alt="Desktop and lamp stock image"/></li>
             <li>Always Learning</li>
-            <li><img class="listimage" src="champ1logo.png" alt="Champ 1 rank logo from Rocket League."/><img class="listimage" id="champ2logo" src="champ2logo.png" alt="Champ 2 Logo from Rocket League, showing a rank only 2% of players have achieved."/><img class="listimage" src="champ3logo.webp" alt="Champion 3 logo from Rocket League."/></li>
+            <li><img className="listimage" src={require('./images/champ1logo.png')} alt="Champ 1 rank logo from Rocket League."/><img class="listimage" id="champ2logo" src="champ2logo.png" alt="Champ 2 Logo from Rocket League, showing a rank only 2% of players have achieved."/><img class="listimage" src="champ3logo.webp" alt="Champion 3 logo from Rocket League."/></li>
             <li>Rocket League Peak Rank - Champ 2 Div 4</li>
           </ul>
         </section>
