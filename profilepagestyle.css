@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html {
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+ul.navbar {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  background-color: #616161;
+}
+ul.navbar li{
+  float:right;
+  display:block;
+  padding: 10px 0px;
+
+}
+li a {
+  text-decoration: none;
+  text-align:center;
+  padding: 15px 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #616161;
+  transition: background-color 0.5s ease;
+}
+li a:hover {
+  background-color:#6a6acc;
+}
+#title {
+  float: left;
+}
+.hero{
+  background-image: url('spacebackground.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  background-attachment: fixed;
+  height: 80vh;
+  margin: 0px;
+  padding: 0px;
+}
+head{
+  margin-bottom: 0px;
+  padding: 0px;
+
+}
+nav{
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.container .info h1 {
+  padding: 20px 0px;
+  font-size: 2.5rem;
+}
+.container {
+  width: 90%;
+  height: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#svglogo {
+  display: block;
+  object-position: left;
+  max-width: 480px;
+  max-height: 640px;
+  padding-right: 60px;
+  padding-left: 0px;
+
+
+}
+svg {
+  z-index: 1;
+}
+.info {
+  padding-left: 50px;
+  color: ivory;
+}
+
+.skills h1 {
+ display: block;
+ text-align: center;
+ padding: 50px 0;
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
+.skills li {
+margin: 20px auto;
+padding: 20px 0;
+text-align: center;
+font-size: 1.5rem;
+}
+#logohtml {
+  align-items: center;
+  opacity: 0.8;
+  transition: opacity 0.25s ease;
+  
+}
+#logocss {
+  align-items: center;
+  opacity: 0.8;
+  transition: opacity 0.25s ease;
+  
+}
+#logocss:hover{
+  opacity: 1;
+}
+#logohtml:hover{
+opacity: 1;
+}
+.listimage{
+  max-width: 200px;
+  max-height: 300px;
+  align-items: center;
+}
+#champ2logo{
+  max-width: 240px;
+  max-height: 360px;
+  align-items: center;
+}
+.container-2{
+  background-color: #616161;
+  display: inline-block;
+  overflow: hidden;
+  padding: 100px;
+}
+.container-2 h1{
+  text-align: left;
+  color: white;
+  display: flex;
+}
+.container-2 p{
+  font-size: 1.3rem;
+  color: white;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 15rem;
+  line-height: 23pt;
+}
+.container-2 .listimage {
+  max-width: 400px;
+  border-radius: 5px;
+}
