@@ -34,11 +34,13 @@ function App() {
         <h1>Parker's Skills</h1>
           <ul>
             <li><img id="logohtml" className='listimage' src={require('./images/html_badge.jpeg')} alt="HTML logo"/><img id="logocss" class="listimage" src={require('./images/css3logo.png')} alt="CSS logo"/></li>
-            <li>Proficiency in HTML+CSS</li>  
-            <li><img className="listimage" src={require('./images/learningpicture1.jpeg')} alt="Desktop and lamp stock image"/></li>
-            <li>Always Learning</li>
-            <li><img className="listimage" src={require('./images/champ1logo.png')} alt="Champ 1 rank logo from Rocket League."/><img class="listimage" id="champ2logo" src="champ2logo.png" alt="Champ 2 Logo from Rocket League, showing a rank only 2% of players have achieved."/><img class="listimage" src="champ3logo.webp" alt="Champion 3 logo from Rocket League."/></li>
-            <li>Rocket League Peak Rank - Champ 2 Div 4</li>
+            <li>Web Development Experience</li>  
+            <li><img id ='logopython' className="listimage" src={require('./images/pythonlogo.jpeg')} alt="Python programming language logo"/></li>
+            <li>Python Programmer</li>
+            <li><img className="listimage" src={require('./images/champ1logo.png')} alt="Champ 1 rank logo from Rocket League."/><img class="listimage" id="champ2logo" src={require('./images/champ2logo.png')} alt="Champ 2 Logo from Rocket League, showing a rank only 2% of players have achieved."/><img class="listimage" src={require('./images/champ3logo.webp')} alt="Champion 3 logo from Rocket League."/></li>
+            <li>Rocket League Peak Rank - Champ 3 Div 4</li>
+            <li><img id ='logoflask' className="listimage" src={require('./images/pythonlogo.jpeg')} alt="Flask framework logo"/></li>
+            <li>Web Framework Experience</li>
           </ul>
         </section>
       </div>
