@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 
@@ -27,7 +26,7 @@ function App() {
 
             <div class="info">
               <h1>Graham Web Development</h1>
-                <h2></h2>
+                <h2>Sample text</h2>
                   <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam laboriosam dolor repellat? Enim aspernatur magnam voluptatibus iste repellendus incidunt quis!</h3>
 
           </div>
@@ -37,7 +36,7 @@ function App() {
         <section class="skills" id="skills">
         <h1>Parker's Skills</h1>
           <ul>
-            <li><img id="logohtml" className="listimage" src="html5logo.png" alt="HTML logo"/><img id="logocss" class="listimage" src="css3logo.png" alt="CSS logo"/></li>
+            <li><img id="logohtml" className="listimage" src="images/html5logo.png/" alt="HTML logo"/><img id="logocss" class="listimage" src="css3logo.png" alt="CSS logo"/></li>
             <li>Proficiency in HTML+CSS</li>
             <li><img class="listimage" src="learningpicture1.jpeg" alt="Action Bronson branded hoodie"/></li>
             <li>Always Learning</li>
